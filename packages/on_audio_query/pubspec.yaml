@@ -9,6 +9,7 @@ version: 2.9.0
 homepage: https://github.com/LucJosin/on_audio_query/tree/main/packages/on_audio_query
 issue_tracker: https://github.com/LucJosin/on_audio_query/issues
 # pub.dev: https://pub.dev/packages/on_audio_query
+publish_to: none
 topics:
   - audio
   - song
@@ -27,7 +28,7 @@ dependencies:
   on_audio_query_platform_interface: ^1.7.0
   on_audio_query_web: ^1.6.0
   on_audio_query_ios: ^1.1.0
-  on_audio_query_android: ^1.1.0
+  on_audio_query_android: ../on_audio_query_android
 
   # Flutter
   flutter:
