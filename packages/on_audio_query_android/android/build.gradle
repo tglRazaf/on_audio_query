@@ -28,6 +28,17 @@ android {
     namespace = 'com.lucasjosino.on_audio_query'
     compileSdkVersion 33
 
+    // Add these compileOptions to set Java compatibility
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    // Add kotlinOptions to match Java compatibility
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
